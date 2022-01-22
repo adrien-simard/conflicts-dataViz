@@ -17,7 +17,7 @@ library(stringr)
 
 # specifying the path
 # C:/Users/adrie/OneDrive/Documents/App-1/
-path <- 'C:/Users/adrie/OneDrive/Documents/App-1/data.csv'
+path <- 'data.csv'
 # reading contents of csv file
 data <- read.csv(path,sep=",")
 #delete the blank in the column ISO3
