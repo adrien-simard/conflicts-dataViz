@@ -6,7 +6,7 @@ path_iso <- 'iso3.csv'
 iso_codes <- read.csv(path_iso, sep=',')
 
 #Our dataset
-path_data <- "ged-csv/ged211.csv"
+path_data <- "data.csv"
 data <- read.csv(path_data, sep=',')
 
 #Converting column type_of_violence in order to have the labels names
